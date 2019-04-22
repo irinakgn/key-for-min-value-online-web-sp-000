@@ -5,11 +5,10 @@ def key_for_min_value(name_hash)
   key, value = hash.first
   m = ''
   name_hash.each do |name, age|
-
-  if value < age
-    m = name
-    value = age  
+    if value < age
+      m = name
+      value = age
+    end
   end
- end
 
 end
