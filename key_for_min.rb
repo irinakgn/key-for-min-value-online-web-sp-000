@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
  # adam.adam
  keys = name_hash.keys
  values = name_hash.values
- values
+ values.min
 end
