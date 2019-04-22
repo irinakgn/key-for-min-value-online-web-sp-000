@@ -7,5 +7,7 @@ def key_for_min_value(name_hash)
  # adam.adam
  keys = name_hash.keys
  values = name_hash.values
- values.index(values.min)
+
+ minAge = values.index(values.min)
+ keys[minAge]
 end
