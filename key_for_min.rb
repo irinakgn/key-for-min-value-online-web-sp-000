@@ -5,5 +5,7 @@ def key_for_min_value(name_hash)
 
  # adam = name_hash.select{|name, age| age == 1 }
  # adam.adam
- name_hash.keys()
+ keys = name_hash.keys
+
+ keys
 end
